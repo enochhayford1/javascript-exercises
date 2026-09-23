@@ -4,13 +4,13 @@ describe('palindromes', () => {
   test('detects odd-length palindrome', () => {
     expect(palindromes('racecar')).toBe(true);
   });
-  test.skip('detects even-length palindrome', () => {
+  test('detects even-length palindrome', () => {
     expect(palindromes('abba')).toBe(true);
   });
-  test.skip('detects palindrome with numbers', () => {
+  test('detects palindrome with numbers', () => {
     expect(palindromes('rac3e3car')).toBe(true);
   });
-  test.skip('detects palindrome with multiple words', () => {
+  test('detects palindrome with multiple words', () => {
     expect(palindromes('A car, a man, a maraca.')).toBe(true);
   });
   test.skip('ignores punctuation', () => {
